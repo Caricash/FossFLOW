@@ -36,12 +36,12 @@ jobs:
         env:
           # do not report warnings as errors
           CI: false
-          PUBLIC_URL: https://stan-smith.github.io/FossFLOW/
+          PUBLIC_URL: https://caricash.github.io/FossFLOW/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './build/'
+          path: "./build/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
