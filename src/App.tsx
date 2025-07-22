@@ -43,7 +43,6 @@ function App() {
   const [lastAutoSave, setLastAutoSave] = useState<Date | null>(null);
   const [showStorageManager, setShowStorageManager] = useState(false);
   
-  // Initialize with empty diagram data
   // Create default colors for connectors
   const defaultColors = [
     { id: 'blue', value: '#0066cc' },
